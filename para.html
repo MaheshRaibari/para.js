@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="para.css">
+</head>
+
+<body>
+
+    <div id="outerele">
+        <h1> outer Element</h1>
+        <div id="innerele">
+            <h2>innere Element</h2>
+            <div class="main">
+                <div class="one">
+                    A
+
+                </div>
+                <div class="one">
+                    B
+
+                </div>
+                <div class="one" id="celement">
+                    C
+
+                </div>
+                <div class="one">
+                    D
+
+                </div>
+                <div class="one">
+                    E
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script>
+
+
+        // var a = document.getElementById("innerele").parentElement.style.color = ("black");
+
+        // var b = document.getElementById("innerele").parentElement.style.background = ("blue");
+
+
+        // var c = document.querySelector(".main").children[4].style.background ="red"
+        //     console.log(c)
+
+        // var c = document.querySelector(".main").childNodes[1]
+        //     console.log(c)
+        var c = document.querySelector(".main").firstElementChild;
+        console.log(c)
+
+
+    </script>
+</body>
+
+</html>

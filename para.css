@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#outerele{
+    background-color: tan;
+    padding: 30px;
+}
+#innerele{
+    background-color: skyblue;
+    padding: 30px;
+    margin-top: 20px;
+}
+.one{
+    background-color: #fff;
+    padding: 30PX;
+    border: 2PX solid black;
+    height: 200PX;
+    width: 300PX;
+    text-align: center;
+    margin-right: 10PX;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
